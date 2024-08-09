@@ -1,0 +1,153 @@
+/* CustomStyles.css */
+
+/* 전역 설정 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* 배경색 */
+    color: #333; /* 기본 텍스트 색상 */
+}
+
+/* 헤더 스타일 */
+header {
+    background-color: #efbd96; /* 헤더 배경색 */
+    padding: 10px 0;
+    color: #fff; /* 헤더 텍스트 색상 */
+    text-align: center;
+}
+
+/*nav-bar style*/
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.nav-item {
+    flex-grow: 1; /* 아이템들 간의 간격을 유연하게 조정 */
+    text-align: center; /* 텍스트를 중앙 정렬 */}
+
+.navbar-brand{
+    position: absolute;
+    flex-grow: 1; 
+    text-align: center; 
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+
+/* 섹션 스타일 */
+section {
+    background-color: #155c3a; /* 섹션 배경색 */
+    padding: 40px 20px;
+    margin: 20px 0 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+}
+
+/* 링크 스타일 */
+a {
+    color: #007bff; /* 링크 색상 */
+    text-decoration: none; /* 밑줄 제거 */
+}
+
+a:hover {
+    text-decoration: underline; /* 호버 시 밑줄 추가 */
+}
+
+.btn-primary {
+    color: #208856; /* 텍스트 색상 */
+    background-color:#DEEE4E; /* 배경색 */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* 호버 트랜지션 효과 설정 */
+}
+
+/* 버튼 호버 효과 */
+.btn-primary:hover {
+    background-color: #6b8972; /* 호버 시 배경색 변경 */
+    color: #fff; /* 호버 시 텍스트 색상 변경 */
+}
+
+/* 버튼 활성화 스타일 (선택적으로 추가) */
+.btn-primary:active {
+    transform: translateY(1px); /* 클릭 시 버튼 약간 아래로 이동 */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* 클릭 시 그림자 효과 추가 */
+}
+
+/* 이미지 스타일 */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto; /* 가운데 정렬 */
+}
+
+
+#website{
+    margin-top:23px;
+}
+
+/*Footer color-pallette*/
+.color-palette {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* 원형 사이의 간격 */
+}
+
+.color-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-color: #f0f0f0;
+    border: 0.1px solid #fff;}
+
+    /*Archive-btn*/
+    .archive-button {
+        display: inline-block;
+        padding: 4px 10px;
+        font-size:18px;
+        background-color: hotpink; /* 원하는 색상으로 변경 */
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease; /* 호버 시 전환 효과 */
+      }
+      
+      .archive-button:hover {
+        background-color: pink; /* 호버 시 변경할 배경색 */
+        color: white; /* 호버 시 변경할 텍스트색 */
+        cursor: pointer;
+      }
+
+      /*ArchivePage*/
+      #ArchivePage{
+        padding-top: 100px;
+      }
+
+      #a_title{
+        margin-bottom: 30px;
+      }
+
+      /*icon*/
+      .social-link {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        background-color: #fc7d22ee; /* 배경색: 파란색 */
+        color: white; /* 아이콘 색상: 흰색 */
+        text-align: center;
+        margin-right: 10px; /* 간격 조정 */
+        font-size: 20px;
+        text-decoration: none; /* 밑줄 제거 */
+        transition: background-color 0.3s; /* 호버 효과를 위한 전환 시간 */
+    }
+    
+    .social-link:hover {
+        background-color: #0056b3; /* 호버 시 배경색 변경 */
+    }
+    

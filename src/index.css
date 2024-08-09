@@ -1,0 +1,131 @@
+
+.cube-container {
+    perspective: 1000px;
+    position: relative;
+    height: 300px; 
+    margin:30px 15px 30px 15px;
+}
+.cube {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform-style: preserve-3d;
+    transform: translate(-50%, -50%) rotateX(15deg) rotateY(15deg) translateZ(-100px);
+    transition: transform 0.5s ease;
+}
+
+.cube-btn {
+    width: 300px;
+    height: 300px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5; 
+}
+
+
+
+.cube-btn:hover {
+    background-color: #00000064;
+    transition: background-color 0.3s ease;
+    opacity: 0.7;
+
+}
+
+.cube::after {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 220px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.352), rgba(0, 0, 0, 0));
+    transform: translate(-50%, 50%) rotateX(90deg) translateZ(-110px); /* 간격을 줄이기 위해 translateZ 값 조정 */
+    z-index: -1; 
+    filter: blur(20px); 
+    opacity: 0.5; 
+}
+.cube-face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #ccc;
+    border-radius: 5px; 
+    line-height: 200px;
+    font-size: 40px;
+    text-align: center;
+    overflow: hidden; 
+    box-shadow: inset 0 0 3px rgba(21, 68, 8, 0.84);
+}
+.cube-face img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+}
+
+.cube-face-front { transform: rotateY(  0deg) translateZ(100px);margin:1em;  }
+.cube-face-back  { transform: rotateY(180deg) translateZ(100px);margin:1em;  }
+.cube-face-right { transform: rotateY( 90deg) translateZ(100px);margin:1em;  }
+.cube-face-left  { transform: rotateY(-90deg) translateZ(100px);margin:1em;  }
+.cube-face-top   { transform: rotateX( 90deg) translateZ(100px); margin:1em; }
+.cube-face-bottom{ transform: rotateX(-90deg) translateZ(100px); margin:1em; }
+
+
+
+
+input[name="cube-control"]:nth-of-type(1):checked ~ .cube { transform: rotateY(  0deg) translateZ(-100px); }
+input[name="cube-control"]:nth-of-type(2):checked ~ .cube { transform: rotateY(-180deg) translateZ(-100px); }
+input[name="cube-control"]:nth-of-type(3):checked ~ .cube { transform: rotateY( -90deg) translateZ(-100px); }
+input[name="cube-control"]:nth-of-type(4):checked ~ .cube { transform: rotateY(  90deg) translateZ(-100px); }
+input[name="cube-control"]:nth-of-type(5):checked ~ .cube { transform: rotateX( -90deg) translateZ(-100px); }
+input[name="cube-control"]:nth-of-type(6):checked ~ .cube { transform: rotateX(  90deg) translateZ(-100px); }
+
+
+.radio-button {
+    display: none; /* Hide the radio buttons */
+}
+
+.cube-container {
+    perspective: 1000px;
+    position: relative;
+    height: 300px;
+}
+
+
+
+/* Ensure that the cube's faces are properly styled and visible */
+.cube-face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #ccc;
+    border: 1px solid #000;
+    line-height: 200px;
+    font-size: 40px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.cube-face img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Adjust the cube face transformations */
+.cube-face-front  { transform: rotateY(0deg) translateZ(100px); }
+.cube-face-back   { transform: rotateY(180deg) translateZ(100px); }
+.cube-face-right  { transform: rotateY(90deg) translateZ(100px); }
+.cube-face-left   { transform: rotateY(-90deg) translateZ(100px); }
+.cube-face-top    { transform: rotateX(90deg) translateZ(100px); }
+.cube-face-bottom { transform: rotateX(-90deg) translateZ(100px); }

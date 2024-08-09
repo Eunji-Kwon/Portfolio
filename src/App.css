@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&display=swap');
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+/*<uniquifier>: Use a unique and descriptive class name*/
+/* <weight>: Use a value from 100 to 400*/
+.text{
+
+  font-size:larger;
+}
+.playwrite-dk-uloopet-h1 {
+  font-family: "Playwrite DK Uloopet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;  
+  font-size: 88px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: auto;
+  color: #DEEE4E;
+
+   text-shadow: 4px 4px 5px rgba(255, 98, 0, 0.836);
+
+
+}
+.playwrite-dk-uloopet-h3 {
+  font-family: "Playwrite DK Uloopet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;  
+  font-size: 44px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding: auto; 
+  color: rgb(255, 111, 0);
+  
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.485);
+
+
+}
+/* NavBar Fixed Style */
+.navbar {
+  position: fixed;
+  padding: 1rem;
+  z-index: 1000; /* Ensures the navbar stays on top */
+  top: 0;
+}
+
+.navbar-nav .nav-link {
+  margin: 0 0.5rem;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.app-content {
+  background-color: #1c774b;
+  padding-top: 0px; /* 네비게이션 바의 높이만큼 여백 추가 */
+}
+/* Section style */
+section {
+  
+  padding: 30px 0; /* Increased padding for better spacing */
+}
+
+
+/*Each Section */
+#about {
+  background-color: #208856 !important;
+  border-radius: 0 0 50px 0; /* 섹션 테두리 둥글게 */
+
+}
+#archive {
+  background-color: #208856 !important;
+
+  border-radius: 50px 0 5
+  0px 0; /* 섹션 테두리 둥글게 */
+
+}
+#career {
+  background-color: #208856 !important;
+
+  border-radius: 50px 0 50px 0; /* 섹션 테두리 둥글게 */
+
+}
+#contact {
+  background-color: #208856 !important;
+
+  border-radius: 50px 0 0 0; /* 섹션 테두리 둥글게 */
+
+}
+
+/*Main Colour */
+
+.bg-dark {
+  background-color: #208856 !important;
+}
+
+.bg-light {
+  background-color: #DEEE4E !important;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+
+h1, h2 {
+  font-family: "Playwrite DK Uloopet", cursive;
+font-weight: 500;
+font-size:48px;
+color:#DEEE4E;
+  margin-bottom: 20px;
+}
+
+/* Additional Styles */
+.nav-link:hover {
+  color: #ddd !important; /* Better hover effect for nav links */
+}
+
+section {
+  min-height: 50vh; /* Ensures each section takes at least full viewport height */
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #343a40;
+  color: white;
+}
+
+/*Archive*/
+.card-container {
+
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.custom-card {
+  padding: 15px 10px; 
+  display: flex;  
+  flex-direction: row;
+  align-items: center;
+  width: 95%;
+  height: 300px;
+  margin: 0 50px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.custom-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custom-card .card-body {
+  width: 50%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.custom-card .card-text {
+  margin: 0;
+}
+
+.slick-prev, .slick-next {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.slick-prev:hover, .slick-next:hover {
+  opacity: 1;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 40px;
+  color: #000;
+  opacity: 0.7;
+}
+
+.slick-prev:hover:before, .slick-next:hover:before {
+  opacity: 1;
+}
+
+/*Career*/
+/* styles/Career.css */
+.career-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.career-col {
+  flex: 0 0 65%;
+  max-width: 45%;
+  margin-right: 5%;
+}
+
+.career-col:last-child {
+  margin-right: 0;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.circle img {
+  width: auto;
+  height: auto;
+}
+
+.badge{
+  margin: 2px;
+  padding:5px;
+}
