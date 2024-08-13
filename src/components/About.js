@@ -33,7 +33,10 @@ const About = () => {
         setRotation(faces[nextFace]);
         setCurrentFace(nextFace);
     };
-    const resumeUrl = process.env.PUBLIC_URL + '/assets/Resume.pdf';
+    //const resumeUrl = process.env.PUBLIC_URL + '/assets/Resume.pdf';
+    const resumeUrl = `${process.env.PUBLIC_URL}assets/Resume.pdf`;
+    console.log('Resume URL:', resumeUrl);
+
     const imageF = process.env.PUBLIC_URL + '/assets/imgs/ICET_LABCHECK.png';
     const imageB = process.env.PUBLIC_URL + '/assets/imgs/Pizza-Order-system-img.png';
     const imageL = process.env.PUBLIC_URL + '/assets/imgs/ctrlZ.PNG';
