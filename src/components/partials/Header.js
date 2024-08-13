@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-scroll';
-import '../CustomStyles.css'; // CustomStyles.css 파일 import
+import '../../styles/CustomStyles.css';
 
 
 function Header() {

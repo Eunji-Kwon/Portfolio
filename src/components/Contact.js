@@ -1,5 +1,5 @@
 import React from 'react';
-import '../CustomStyles.css'; // CustomStyles.css 파일 import
+import '../styles/CustomStyles.css';
 
 function Career() {
     return (

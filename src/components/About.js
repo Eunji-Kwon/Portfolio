@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
-import '../../CustomStyles.css'; // CustomStyles.css 파일 import
+import '../styles/CustomStyles.css';
 import '../index.css';
 
 const About = () => {

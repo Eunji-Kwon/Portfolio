@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 // import CompanyLogo from './assets/company-logo-1.png';
-import '../CustomStyles.css'; // CustomStyles.css 파일 import
+import '../styles/CustomStyles.css';
 
 
 function Career() {
