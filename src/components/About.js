@@ -34,7 +34,7 @@ const About = () => {
         setCurrentFace(nextFace);
     };
     //const resumeUrl = process.env.PUBLIC_URL + '/assets/Resume.pdf';
-    const resumeUrl = `${process.env.PUBLIC_URL}assets/Resume.pdf`;
+    const resumeUrl = `${process.env.PUBLIC_URL}/assets/Resume.pdf`;
     console.log('Resume URL:', resumeUrl);
 
     const imageF = process.env.PUBLIC_URL + '/assets/imgs/ICET_LABCHECK.png';
