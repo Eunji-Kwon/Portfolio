@@ -7,7 +7,6 @@ This project is a portfolio website built using React and Bootstrap. It is deplo
 
 The website is designed to showcase my skills, projects, and professional experience. It features a user-friendly UI and responsive design, optimized for viewing on various devices.
 
-## Tech Stack
 
 ## Tech Stack
 

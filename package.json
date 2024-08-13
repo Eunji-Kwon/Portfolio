@@ -15,8 +15,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-      "prebuild": "cp -r public/assets build/assets",
-  "build": "npm run prebuild && react-scripts build",
+  "prebuild": "mkdir -p build/assets && cp -r public/assets/* build/assets/",
+  "build": "react-scripts build",
     "start": "react-scripts start",
 
     "test": "react-scripts test",
