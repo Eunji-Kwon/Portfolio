@@ -1,6 +1,6 @@
      // ArchivePage.js
 import React from 'react';
-import './CustomStyles.css'; // CustomStyles.css 파일 import
+import '../CustomStyles.css'; // CustomStyles.css 파일 import
 
 
 

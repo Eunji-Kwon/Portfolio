@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
-import './CustomStyles.css'; // CustomStyles.css 파일 import
+import '../CustomStyles.css'; // CustomStyles.css 파일 import
 import '../index.css';
 
 const About = () => {
@@ -34,9 +34,9 @@ const About = () => {
         setCurrentFace(nextFace);
     };
     //const resumeUrl = process.env.PUBLIC_URL + '/assets/Resume.pdf';
-    const resumeUrl = `${process.env.PUBLIC_URL}/assets/Resume.pdf`;
-    console.log('Resume URL:', resumeUrl);
-
+    // const resumeUrl = `${process.env.PUBLIC_URL}/assets/Resume.pdf`;
+    // console.log('Resume URL:', resumeUrl);
+    const resumeUrl = process.env.PUBLIC_URL + '/assets/Resume.pdf';
     const imageF = process.env.PUBLIC_URL + '/assets/imgs/ICET_LABCHECK.png';
     const imageB = process.env.PUBLIC_URL + '/assets/imgs/Pizza-Order-system-img.png';
     const imageL = process.env.PUBLIC_URL + '/assets/imgs/ctrlZ.PNG';

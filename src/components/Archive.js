@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 // import Image2 from './assets/image2.jpg'; 
 // import Image3 from './assets/image3.jpg';
 import { useHistory } from 'react-router-dom';
-import './CustomStyles.css'; // CustomStyles.css 파일 import
+import '../CustomStyles.css'; // CustomStyles.css 파일 import
 
 
 function Archive() {
