@@ -9,10 +9,7 @@ import '../../styles/CustomStyles.css';
 
 function Header() {
 
-    // const [show, setShow] = React.useState(true); // Default : Show nav
-
-    // const handleClose = () => setShow(false);
-    // const handleShow = () => setShow(true);
+ 
     return (
         <div className="sidebar">
             
@@ -21,7 +18,7 @@ function Header() {
             <Navbar.Brand href="/" className="mb-4 playwrite-dk-uloopet-h3">Eunji</Navbar.Brand>
             </div>
             <div>
-            <Nav className="flex-column text-left">
+            <Nav className="flex-column text-left nav-content">
                 
                 <Nav.Item>
                     <Nav.Link as={Link} to="about" smooth={true} duration={300}>
