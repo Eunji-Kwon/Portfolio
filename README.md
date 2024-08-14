@@ -18,5 +18,5 @@ The website is designed to showcase my skills, projects, and professional experi
 - **AWS Amplify**: A cloud service used for deploying and hosting the website.
 ## Deployment
 
-The website is deployed using AWS Amplify and can be accessed at: **[https://master.d3cx5sblfx4s8s.amplifyapp.com/)](https://master.d3cx5sblfx4s8s.amplifyapp.com/)**
+The website is deployed using AWS Amplify and can be accessed at: **[https://master.d3cx5sblfx4s8s.amplifyapp.com)](https://master.d3cx5sblfx4s8s.amplifyapp.com/)**
 
