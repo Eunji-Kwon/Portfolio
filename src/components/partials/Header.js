@@ -9,15 +9,20 @@ import '../../styles/CustomStyles.css';
 
 function Header() {
 
-    const [show, setShow] = React.useState(true); // Default : Show nav
+    // const [show, setShow] = React.useState(true); // Default : Show nav
 
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    // const handleClose = () => setShow(false);
+    // const handleShow = () => setShow(true);
     return (
         <div className="sidebar">
+            
         <Navbar bg="dark" variant="dark" className="flex-column">
-            <Navbar.Brand href="/" className="mb-4">My Portfolio</Navbar.Brand>
-            <Nav className="flex-column">
+        <div>
+            <Navbar.Brand href="/" className="mb-4 playwrite-dk-uloopet-h3">Eunji</Navbar.Brand>
+            </div>
+            <div>
+            <Nav className="flex-column text-left">
+                
                 <Nav.Item>
                     <Nav.Link as={Link} to="about" smooth={true} duration={300}>
                         About
@@ -44,6 +49,7 @@ function Header() {
                     </Nav.Link>
                 </Nav.Item>
             </Nav>
+            </div>
         </Navbar>
     </div>
     );

@@ -77,6 +77,20 @@ html, body {
   left: 0;
   bottom: 0;
   z-index: 1020;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.sidebar .navbar-brand {
+  margin-bottom: 20px; /* 브랜드와 네비게이션 항목 간의 간격 조정 */
+}
+
+.sidebar .nav {
+  padding-left: 15px; /* 네비게이션 항목 왼쪽 여백 조정 */
+}
+
+.sidebar .nav-item {
+  margin-bottom: 10px; /* 각 네비게이션 항목 간의 간격 조정 */
 }
 
 .app-content {
