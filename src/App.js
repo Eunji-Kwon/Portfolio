@@ -17,8 +17,12 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div>
-        <Header />
+   
+      <div className="app-container">
+        <div className="sidebar">
+          <Header />
+        </div>
+
         <div className="app-content">
           <Switch>
             <Route exact path="/">
@@ -42,10 +46,11 @@ function App() {
              
             </Route>
           </Switch>
-        </div>
-        <Element name="footer">
+          <Element name="footer">
           <Footer />
         </Element>
+        </div>
+
       </div>
     </Router>
   );

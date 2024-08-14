@@ -56,16 +56,38 @@ html, body {
 .navbar-nav .nav-link {
   margin: 0 0.5rem;
 }
+.app-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
 
 .container-fluid {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+.sidebar {
+  width: 250px; /* 사이드바의 너비 */
+  background-color: #1c774b; /* Bootstrap의 dark 테마 색상 */
+  padding-top: 56px; /* 헤더의 높이와 맞춰서 아래로 떨어뜨림 */
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1020;
+}
+
 .app-content {
   background-color: #1c774b;
-  padding-top: 0px; /* 네비게이션 바의 높이만큼 여백 추가 */
+  flex-grow: 1;
+  margin-left: 250px; /* 사이드바의 너비와 맞춤 */
+  padding: 20px;
+  overflow-y: auto;
+
 }
+
 /* Section style */
 section {
   
