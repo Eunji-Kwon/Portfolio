@@ -25,7 +25,7 @@ function ArchivePage() {
     return (
 
     
-        <main id="ArchivePage" className="container">
+        <main id="ArchivePage" className="container p-5">
 
     <div id="a_title" class="jumbotron">
         <h1 class="display-4">Eunji's Archive</h1>

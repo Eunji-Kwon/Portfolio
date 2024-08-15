@@ -9,12 +9,7 @@ html, body {
   margin: 0;
   padding: 0;
 }
-/*<uniquifier>: Use a unique and descriptive class name*/
-/* <weight>: Use a value from 100 to 400*/
-.text{
 
-  font-size:larger;
-}
 .playwrite-dk-uloopet-h1 {
   font-family: "Playwrite DK Uloopet", cursive;
   font-optical-sizing: auto;
@@ -47,10 +42,17 @@ html, body {
 }
 /* NavBar Fixed Style */
 .navbar {
-  position: fixed;
+  background-color:#1c774b;
+    position: fixed;
   padding: 1rem;
   z-index: 1000; /* Ensures the navbar stays on top */
   top: 0;
+}
+
+.navbar-nav{
+
+   margin-top: 380px; 
+   margin-bottom: 1500px;
 }
 
 .navbar-nav .nav-link {
@@ -69,9 +71,9 @@ html, body {
 }
 
 .sidebar {
-  width: 250px; /* 사이드바의 너비 */
-  background-color: #1c774b; /* Bootstrap의 dark 테마 색상 */
-  padding-top: 56px; /* 헤더의 높이와 맞춰서 아래로 떨어뜨림 */
+  width: 160px; /* 사이드바의 너비 */
+  background-color: #155c3a; /* Bootstrap의 dark 테마 색상 */
+  padding-top: 200px; /* 헤더의 높이와 맞춰서 아래로 떨어뜨림 */
   position: fixed;
   top: 0;
   left: 0;
@@ -82,22 +84,24 @@ html, body {
 }
 
 .sidebar .navbar-brand {
+
   margin-bottom: 20px; /* 브랜드와 네비게이션 항목 간의 간격 조정 */
 }
 
 .sidebar .nav {
-  padding-left: 15px; /* 네비게이션 항목 왼쪽 여백 조정 */
+  padding-left: 5px; /* 네비게이션 항목 왼쪽 여백 조정 */
 }
 
 .sidebar .nav-item {
-  margin-bottom: 10px; /* 각 네비게이션 항목 간의 간격 조정 */
+  margin-bottom: 10px;
+  text-align: left; /* 각 네비게이션 항목 간의 간격 조정 */
 }
 
 .app-content {
   background-color: #1c774b;
   flex-grow: 1;
-  margin-left: 250px; /* 사이드바의 너비와 맞춤 */
-  padding: 20px;
+  margin-left: 160px; /* 사이드바의 너비와 맞춤 */
+  padding: 10px;
   overflow-y: auto;
 
 }
@@ -275,4 +279,12 @@ footer {
 .badge{
   margin: 2px;
   padding:5px;
+}
+
+.contact-info{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  color:#000;
+  font-weight: 300;
 }

@@ -17,6 +17,13 @@ import './App.css';
 function App() {
   return (
     <Router>
+
+ 
+        <div className="sidebar">
+          <Header />
+        </div>
+
+
         <div className="app-content">
         <Header />
           <Switch>
@@ -46,7 +53,6 @@ function App() {
         </Element>
         </div>
 
- 
     </Router>
   );
 }
