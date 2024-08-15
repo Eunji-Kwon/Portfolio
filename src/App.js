@@ -25,7 +25,7 @@ function App() {
 
 
         <div className="app-content">
-        <Header />
+       
           <Switch>
             <Route exact path="/">
               <Element name="about">
