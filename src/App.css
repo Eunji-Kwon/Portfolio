@@ -280,3 +280,11 @@ footer {
   margin: 2px;
   padding:5px;
 }
+
+.contact-info{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  color:#000;
+  font-weight: 300;
+}

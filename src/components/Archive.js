@@ -2,9 +2,6 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-// import Image1 from './assets/image1.jpg'; 
-// import Image2 from './assets/image2.jpg'; 
-// import Image3 from './assets/image3.jpg';
 import { useHistory } from 'react-router-dom';
 import '../styles/CustomStyles.css';
 

@@ -14,7 +14,7 @@ function Header() {
     // const handleClose = () => setShow(false);
     // const handleShow = () => setShow(true);
     return (
-        <div className="sidebar">
+        // <div className="sidebar">
             
         <Navbar bg="dark" variant="dark" className="flex-column">
         <div>
@@ -51,7 +51,7 @@ function Header() {
             </Nav>
             </div>
         </Navbar>
-    </div>
+    // </div>
     );
 }
 
