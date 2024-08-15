@@ -51,7 +51,7 @@ const About = () => {
                     <h1 className="playwrite-dk-uloopet-h1">Eunji Kwon</h1>
                     <Col md={6} className="d-flex flex-column align-items-center">
                         <h3 className="playwrite-dk-uloopet-h3">Software Developer</h3>
-                        <p className="text">This is the About section.</p>
+                        <p className="text">Blending creativity with code, I build software that resonates with end-users, creating intuitive and visually captivating experiences.</p>
                         <Row className="mt-4">
                             <Col className="text-center">
                                 <button type="button" className="btn btn-primary position-relative me-3">
@@ -65,6 +65,11 @@ const About = () => {
                             </Col>
                         </Row>
                         <Row className="mt-3 g-2">
+                        <Col className="text-center">
+    <a href="mailto:sandeul97@gmail.com" className="social-link me-3" target="_blank" rel="noopener noreferrer">
+        <i className="fas fa-envelope"></i>
+    </a>
+</Col>
                             <Col className="text-center">
                                 <a href="https://github.com/Eunji-Kwon" className="social-link" target="_blank" rel="noopener noreferrer">
                                     <i className="fab fa-github"></i>
@@ -75,6 +80,8 @@ const About = () => {
                                     <i className="fab fa-linkedin"></i>
                                 </a>
                             </Col>
+     
+
                         </Row>
                     </Col>
                     <Col md={6}>

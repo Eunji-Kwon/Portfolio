@@ -15,6 +15,13 @@ header {
     text-align: center;
 }
 
+
+.text{
+
+    font-family: 'Raleway', sans-serif;
+
+  }
+
 /*nav-bar style*/
 .navbar-nav {
     display: flex;

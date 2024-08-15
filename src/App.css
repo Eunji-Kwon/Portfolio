@@ -9,12 +9,7 @@ html, body {
   margin: 0;
   padding: 0;
 }
-/*<uniquifier>: Use a unique and descriptive class name*/
-/* <weight>: Use a value from 100 to 400*/
-.text{
 
-  font-size:larger;
-}
 .playwrite-dk-uloopet-h1 {
   font-family: "Playwrite DK Uloopet", cursive;
   font-optical-sizing: auto;
