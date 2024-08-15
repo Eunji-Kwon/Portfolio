@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Navbar, Nav, Container } from 'react-bootstrap';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 import 'slick-carousel/slick/slick.css';
 import { Element } from 'react-scroll';
@@ -17,13 +17,15 @@ import './App.css';
 function App() {
   return (
     <Router>
-   
+
  
         <div className="sidebar">
           <Header />
         </div>
 
+
         <div className="app-content">
+        <Header />
           <Switch>
             <Route exact path="/">
               <Element name="about">

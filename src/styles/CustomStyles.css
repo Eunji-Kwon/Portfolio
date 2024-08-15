@@ -31,8 +31,9 @@ header {
 }
 
 .nav-item {
+
     flex-grow: 1; /* 아이템들 간의 간격을 유연하게 조정 */
-    text-align: center; /* 텍스트를 중앙 정렬 */}
+    text-align: left; /* 텍스트를 중앙 정렬 */}
 
 .navbar-brand{
     position: absolute;
@@ -78,11 +79,12 @@ a:hover {
     color: #fff; /* 호버 시 텍스트 색상 변경 */
 }
 
-/* 버튼 활성화 스타일 (선택적으로 추가) */
-.btn-primary:active {
-    transform: translateY(1px); /* 클릭 시 버튼 약간 아래로 이동 */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* 클릭 시 그림자 효과 추가 */
+/* 버튼 클릭 상태 유지 */
+.btn-primary:focus, .btn-primary:active {
+    background-color: #6b8972; /* 클릭 시 배경색 변경 */
+    color: #fff; /* 클릭 시 텍스트 색상 변경 */
 }
+
 
 /* 이미지 스타일 */
 img {
