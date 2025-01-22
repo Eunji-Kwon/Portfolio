@@ -1,9 +1,9 @@
 import React from 'react';
 import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+// import 'slick-carousel/slick/slick.css';
+// import 'slick-carousel/slick/slick-theme.css';
 
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import '../styles/CustomStyles.css';
 
 
@@ -13,10 +13,10 @@ function Archive() {
     const image2 = process.env.PUBLIC_URL + '/assets/imgs/Pizza-Order-system-img.png';
     const image3 = process.env.PUBLIC_URL + '/assets/imgs/empty.PNG';
 
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const handleClick = () => {
-      history.push('/archive'); // Navigate to '/archive' path
+        navigate.push('/archive'); // Navigate to '/archive' path
     };
     // Slide setting
     const settings = {

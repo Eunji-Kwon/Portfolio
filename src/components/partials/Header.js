@@ -1,8 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav } from 'react-bootstrap';
-import { Link } from 'react-scroll';
-import { Link as RouterLink } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll'; // For smooth scrolling
+import { Link as RouterLink } from 'react-router-dom'; // For navigation
 
 import '../../styles/CustomStyles.css';
 
@@ -21,12 +21,12 @@ function Header() {
             <Nav className="flex-column text-left nav-content">
                 
                 <Nav.Item>
-                    <Nav.Link as={Link} to="about" smooth={true} duration={300}>
+                    <Nav.Link as={ScrollLink} to="about" smooth={true} duration={300}>
                         About
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link as={Link} to="archive" smooth={true} duration={300}>
+                    <Nav.Link as={ScrollLink} to="archive" smooth={true} duration={300}>
                         Archive
                     </Nav.Link>
                 </Nav.Item>
@@ -36,12 +36,12 @@ function Header() {
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link as={Link} to="career" smooth={true} duration={300}>
+                    <Nav.Link as={ScrollLink} to="career" smooth={true} duration={300}>
                         Career
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link as={Link} to="contact" smooth={true} duration={300}>
+                    <Nav.Link as={ScrollLink} to="contact" smooth={true} duration={300}>
                         Contact
                     </Nav.Link>
                 </Nav.Item>

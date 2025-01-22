@@ -28,14 +28,14 @@ function Career() {
                             Description of responsibilities and achievements in this role. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit.
                         </p>
-                        <span class="badge text-bg-primary">JavaScript</span>
-                        <span class="badge text-bg-primary">React</span>
-                        <span class="badge text-bg-primary">HTML/CSS</span>
-                        <span class="badge text-bg-primary">Bootstrap</span>
-                        <span class="badge text-bg-success">Node.js</span>
-                        <span class="badge text-bg-success">MongoDB</span>
-                        <span class="badge text-bg-warning">Nginx</span>
-                        <span class="badge text-bg-warning">AWS EC2</span>
+                        <span className="badge text-bg-primary">JavaScript</span>
+                        <span className="badge text-bg-primary">React</span>
+                        <span className="badge text-bg-primary">HTML/CSS</span>
+                        <span className="badge text-bg-primary">Bootstrap</span>
+                        <span className="badge text-bg-success">Node.js</span>
+                        <span className="badge text-bg-success">MongoDB</span>
+                        <span className="badge text-bg-warning">Nginx</span>
+                        <span className="badge text-bg-warning">AWS EC2</span>
                     </div>
                 </div>
                 <div className="career-row mb-5">

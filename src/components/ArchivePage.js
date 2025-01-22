@@ -27,49 +27,49 @@ function ArchivePage() {
     
         <main id="ArchivePage" className="container p-5">
 
-    <div id="a_title" class="jumbotron">
-        <h1 class="display-4">Eunji's Archive</h1>
+    <div id="a_title" className="jumbotron">
+        <h1 className="display-4">Eunji's Archive</h1>
         <p>This is a list of the projects I've worked on so far</p>
     </div>
 
-    <div class="row">
+    <div className="row">
 
         {/* <!-- Sidebar --> */}
-        <div class="col-3" >
-            <div class="flex-shrink-0 p-3" >
+        <div className="col-3" >
+            <div className="flex-shrink-0 p-3" >
                
-                <ul class="list-unstyled ps-0">
-                    <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+                <ul className="list-unstyled ps-0">
+                    <li className="mb-1">
+                        <button className="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
                             Developer
                         </button>
-                        <div class="collapse show" id="home-collapse">
-                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">C#.Net</a></li>
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Java</a></li>
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">HTML/CSS</a></li>
+                        <div className="collapse show" id="home-collapse">
+                            <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a href="#" className="link-body-emphasis d-inline-flex text-decoration-none rounded">C#.Net</a></li>
+                                <li><a href="#" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Java</a></li>
+                                <li><a href="#" className="link-body-emphasis d-inline-flex text-decoration-none rounded">HTML/CSS</a></li>
                             </ul>
                         </div>
                     </li>
-                    <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                    <li className="mb-1">
+                        <button className="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
                             Game
                         </button>
-                        <div class="collapse" id="dashboard-collapse">
-                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Unity</a></li>
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Unreal</a></li>
+                        <div className="collapse" id="dashboard-collapse">
+                            <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a href="#" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Unity</a></li>
+                                <li><a href="#" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Unreal</a></li>
                             </ul>
                         </div>
                     </li>
-                    <li class="mb-1">
-                        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                    <li className="mb-1">
+                        <button className="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
                             Film
                         </button>
-                        <div class="collapse" id="orders-collapse">
-                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Houdini</a></li>
-                                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">After Effect</a></li>
+                        <div className="collapse" id="orders-collapse">
+                            <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a href="#" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Houdini</a></li>
+                                <li><a href="#" className="link-body-emphasis d-inline-flex text-decoration-none rounded">After Effect</a></li>
                             </ul>
                         </div>
                     </li>

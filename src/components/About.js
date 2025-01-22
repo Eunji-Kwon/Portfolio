@@ -6,7 +6,7 @@ import '../index.css';
 const About = () => {
     const [rotation, setRotation] = useState({ x: 15, y: 15, z: -100 });
     const [currentFace, setCurrentFace] = useState(0);
-    const [setIsHovered] = useState(false);
+    const [isHovered, setIsHovered] = useState(false);
 
     const handleMouseEnter = () => {
         setIsHovered(true);
