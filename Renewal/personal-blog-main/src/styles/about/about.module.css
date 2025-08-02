@@ -1,0 +1,16 @@
+.projectCard {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.greenCard {
+  background: #f0fdf4;
+  border-left: 4px solid #4ade80;
+  color: #166534;
+}
+
+.orangeCard {
+  background: #fff7ed;
+  border-left: 4px solid #fb923c;
+  color: #c2410c;
+} 
