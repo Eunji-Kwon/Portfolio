@@ -1,5 +1,5 @@
 import React from 'react';
-//import Slider from 'react-slick';
+import Slider from 'react-slick';
 // import 'slick-carousel/slick/slick.css';
 // import 'slick-carousel/slick/slick-theme.css';
 
@@ -16,7 +16,7 @@ function Archive() {
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate('/archive'); // Navigate to '/archive' path
+        navigate.push('/archive'); // Navigate to '/archive' path
     };
     // Slide setting
     const settings = {
@@ -65,7 +65,7 @@ function Archive() {
                    <p>This is the Archive section with a slide gallery.</p>
 
                 {/* Slide gallery */}
-             
+                <Slider {...settings}>
                     <div className="col">
                         <div className="card custom-card">
                             <img className="card-img-top" src={image1} alt="Card image cap" />
@@ -91,7 +91,7 @@ function Archive() {
                         </div>
                     </div>
                     {/* 필요한 만큼 추가 */}
-
+                </Slider>
             </div>
         </section>
     );
