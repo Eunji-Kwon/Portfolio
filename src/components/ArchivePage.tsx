@@ -78,64 +78,64 @@ function ArchivePage() {
         </div>
 
       {/* <!-- Main Content --> */}
-<div class="col-9">
+<div className="col-9">
 
         {/* <!-- Card 6 --> */}
-        <div class="card mb-4">
-        <img src={card6} class="card-img-top" alt="ICET LAB CHECKSHEET" />
-        <div class="card-body">
-            <h5 class="card-title">ICET Lab CheckSheet</h5>
-            <p class="card-text">I built this system in C#.NET. It can take in order information and store the information.</p>
-            <a href="/video/Pizza-Order-System-video.mp4" class="btn btn-primary" target="_blank">Show</a>
+        <div className="card mb-4">
+        <img src={card6} className="card-img-top" alt="ICET LAB CHECKSHEET" />
+        <div className="card-body">
+            <h5 className="card-title">ICET Lab CheckSheet</h5>
+            <p className="card-text">I built this system in C#.NET. It can take in order information and store the information.</p>
+            <a href="/video/Pizza-Order-System-video.mp4" className="btn btn-primary" target="_blank">Show</a>
         </div>
     </div>
 
         {/* <!-- Card 5 --> */}
-        <div class="card mb-4">
-        <img src={card5} class="card-img-top" alt="Pizza Order system" />
-        <div class="card-body">
-            <h5 class="card-title">Restuarnat Website</h5>
-            <p class="card-text">I built this system in C#.NET. It can take in order information and store the information.</p>
-            <a href={demo5} class="btn btn-primary" target="_blank">Show</a>
+        <div className="card mb-4">
+        <img src={card5} className="card-img-top" alt="Pizza Order system" />
+        <div className="card-body">
+            <h5 className="card-title">Restuarnat Website</h5>
+            <p className="card-text">I built this system in C#.NET. It can take in order information and store the information.</p>
+            <a href={demo5} className="btn btn-primary" target="_blank">Show</a>
         </div>
     </div>
     {/* <!-- Card 4 --> */}
-    <div class="card mb-4">
-        <img src={card4} class="card-img-top" alt="Pizza Order system" />
-        <div class="card-body">
-            <h5 class="card-title">Pizza Order System</h5>
-            <p class="card-text">I built this system in C#.NET. It can take in order information and store the information.</p>
-            <a href={demo4} class="btn btn-primary" target="_blank">Show</a>
+    <div className="card mb-4">
+        <img src={card4} className="card-img-top" alt="Pizza Order system" />
+        <div className="card-body">
+            <h5 className="card-title">Pizza Order System</h5>
+            <p className="card-text">I built this system in C#.NET. It can take in order information and store the information.</p>
+            <a href={demo4} className="btn btn-primary" target="_blank">Show</a>
         </div>
     </div>
 
     {/* <!-- Card 3 --> */}
-    <div class="card mb-4">
-        <img src={card3} class="card-img-top" alt="Ctrl Z (3D Escape-room)" />
-        <div class="card-body">
-            <h5 class="card-title">Ctrl Z (3D Escape-room Game)</h5>
-            <p class="card-text">This is a 3D room escape made by a group project with Unity. I was in charge of planning and 3D modeling.</p>
-            <a href={demo3} class="btn btn-primary" target="_blank">Show</a>
+    <div className="card mb-4">
+        <img src={card3} className="card-img-top" alt="Ctrl Z (3D Escape-room)" />
+        <div className="card-body">
+            <h5 className="card-title">Ctrl Z (3D Escape-room Game)</h5>
+            <p className="card-text">This is a 3D room escape made by a group project with Unity. I was in charge of planning and 3D modeling.</p>
+            <a href={demo3} className="btn btn-primary" target="_blank">Show</a>
         </div>
     </div>
 
     {/* <!-- Card 2 --> */}
-    <div class="card mb-4">
-        <img src={card2} class="card-img-top" alt="Snow Particle" />
-        <div class="card-body">
-            <h5 class="card-title">Snow Particle</h5>
-            <p class="card-text">With Houdini program, I produced and synthesized snow in the reference video.</p>
-            <a href={demo2} class="btn btn-primary" target="_blank">Show</a>
+    <div className="card mb-4">
+        <img src={card2} className="card-img-top" alt="Snow Particle" />
+        <div className="card-body">
+            <h5 className="card-title">Snow Particle</h5>
+            <p className="card-text">With Houdini program, I produced and synthesized snow in the reference video.</p>
+            <a href={demo2} className="btn btn-primary" target="_blank">Show</a>
         </div>
     </div>
 
     {/* <!-- Card 1 --> */}
-    <div class="card mb-4">
-        <img src={card1} class="card-img-top" alt="Zealot Advection" />
-        <div class="card-body">
-            <h5 class="card-title">Zealot Advection</h5>
-            <p class="card-text">With Houdini program, I implemented the particle so that the reference Zealot evaporates.</p>
-            <a href={demo1} class="btn btn-primary" target="_blank">Show</a>
+    <div className="card mb-4">
+        <img src={card1} className="card-img-top" alt="Zealot Advection" />
+        <div className="card-body">
+            <h5 className="card-title">Zealot Advection</h5>
+            <p className="card-text">With Houdini program, I implemented the particle so that the reference Zealot evaporates.</p>
+            <a href={demo1} className="btn btn-primary" target="_blank">Show</a>
         </div>
     </div>
 
