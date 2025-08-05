@@ -23,27 +23,46 @@ header {
   }
 
 /*nav-bar style*/
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 999;
+  max-height: 60px;
+  min-height: 48px;
+  background-color: #DEEE4E !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 0 10px;
+    transition: transform 0.2s;
+}
+
+.navbar--hidden {
+  transform: translateY(-100%);
+}
+
+.navbar--visible {
+  transform: translateY(0);
+}
+
 .navbar-nav {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center;
+  width: auto; 
+  gap: 80px;  
+  margin: 0 auto; 
+  padding: 0;
 }
 
 .nav-item {
-
-    flex-grow: 1; /* 아이템들 간의 간격을 유연하게 조정 */
-    text-align: left; /* 텍스트를 중앙 정렬 */}
-
-.navbar-brand{
-    position: absolute;
-    flex-grow: 1; 
-    text-align: center; 
-    left: 50%;
-    transform: translateX(-50%);
-
+  flex-grow: 0; /* 아이템이 균등하게 늘어나지 않도록 */
+  text-align: center;
 }
-
 
 /* 섹션 스타일 */
 section {
