@@ -19,37 +19,37 @@ function Archive() {
         navigate('/archive'); // Navigate to '/archive' path
     };
     // Slide setting
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        arrows: true,
-        centerMode: true, 
-        centerPadding: '15px', 
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    initialSlide: 1
-                }
-            }
-        ]
-    };
+    // const settings = {
+    //     dots: true,
+    //     infinite: true,
+    //     speed: 500,
+    //     slidesToShow: 3,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     autoplaySpeed: 5000,
+    //     arrows: true,
+    //     centerMode: true, 
+    //     centerPadding: '15px', 
+    //     responsive: [
+    //         {
+    //             breakpoint: 1024,
+    //             settings: {
+    //                 slidesToShow: 2,
+    //                 slidesToScroll: 1,
+    //                 infinite: true,
+    //                 dots: true
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 768,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //                 slidesToScroll: 1,
+    //                 initialSlide: 1
+    //             }
+    //         }
+    //     ]
+    // };
 
     return (
         <section id="archive" className="p-5 bg-light">
@@ -65,7 +65,7 @@ function Archive() {
                    <p>This is the Archive section with a slide gallery.</p>
 
                 {/* Slide gallery */}
-                <Slider {...settings}>
+                {/* <Slider {...settings}>
                     <div className="col">
                         <div className="card custom-card">
                             <img className="card-img-top" src={image1} alt="Card image cap" />
@@ -90,8 +90,7 @@ function Archive() {
                             </div>
                         </div>
                     </div>
-                    {/* 필요한 만큼 추가 */}
-                </Slider>
+                </Slider> */}
             </div>
         </section>
     );

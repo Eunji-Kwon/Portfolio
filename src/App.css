@@ -302,3 +302,14 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+/* 3D Cube Container */
+.cube-container {
+  width: 300px;
+  height: 300px;
+  perspective: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}

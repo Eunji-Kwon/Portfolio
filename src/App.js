@@ -48,10 +48,10 @@ function App() {
             path="/"
             element={
               <>
+                                <Navbar /> {/* 네비게이션 바 추가 */}
                 <Element name="about">
                   <About />
                 </Element>
-                                <Navbar /> {/* 네비게이션 바 추가 */}
 
                 <Element name="archive">
                   <Archive />

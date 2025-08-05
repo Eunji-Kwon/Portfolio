@@ -19,7 +19,7 @@ function Career() {
                  
 
                         </div>
-                        <p className="text-muted">2024.04 - PRESENT</p>
+                        <p className="text-muted mt-3">2024.04 - 2024.08</p>
                     </div>
                     <div className="career-col">
                         <h3>ICET Lab Assistant - Software(Co-op)</h3>
