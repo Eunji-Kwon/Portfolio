@@ -16,7 +16,7 @@ function Archive() {
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate.push('/archive'); // Navigate to '/archive' path
+        navigate('/archive'); // Navigate to '/archive' path
     };
     // Slide setting
     const settings = {

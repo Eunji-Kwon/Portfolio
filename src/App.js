@@ -12,12 +12,34 @@ import Contact from './components/Contact';
 import Footer from './components/partials/Footer';
 import './App.css';
 
+// 새 네비게이션 바 컴포넌트 추가
+function Navbar() {
+  return (
+    <nav className="navbar navbar-expand navbar-light bg-light justify-content-center my-3">
+      <ul className="navbar-nav flex-row">
+        <li className="nav-item mx-2">
+          <a className="nav-link" href="#about">About</a>
+        </li>
+        <li className="nav-item mx-2">
+          <a className="nav-link" href="#archive">Archive</a>
+        </li>
+         <li className="nav-item mx-2">
+          <a className="nav-link" href="#career">Career</a>
+        </li>
+         <li className="nav-item mx-2">
+          <a className="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  );
+}
+
 function App() {
   return (
     <Router>
-      <div className="sidebar">
+      {/* <div className="sidebar">
         <Header />
-      </div>
+      </div> */}
 
       <div className="app-content">
         <Routes>
@@ -29,6 +51,8 @@ function App() {
                 <Element name="about">
                   <About />
                 </Element>
+                                <Navbar /> {/* 네비게이션 바 추가 */}
+
                 <Element name="archive">
                   <Archive />
                 </Element>

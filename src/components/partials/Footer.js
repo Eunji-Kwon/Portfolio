@@ -11,7 +11,7 @@ function Footer() {
                 {/* <div className="color-circle" style={{ backgroundColor: '#3357FF' }}></div>
                 <div className="color-circle" style={{ backgroundColor: '#F3FF33' }}></div>
                 <div className="color-circle" style={{ backgroundColor: '#FF33A6' }}></div> */}
-                   <p>&copy; 2024 Eunji Kwon. All rights reserved.</p>
+                   <p>&copy; 2025 Eunji Kwon. All rights reserved.</p>
 
         </div>
            

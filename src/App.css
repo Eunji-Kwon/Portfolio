@@ -41,22 +41,14 @@ html, body {
 
 }
 /* NavBar Fixed Style */
-.navbar {
-  background-color:#1c774b;
-    position: fixed;
-  padding: 1rem;
-  z-index: 1000; /* Ensures the navbar stays on top */
-  top: 0;
-}
-
-.navbar-nav{
-
-   margin-top: 380px; 
-   margin-bottom: 1500px;
-}
-
-.navbar-nav .nav-link {
-  margin: 0 0.5rem;
+.app-content {
+  background-color: #1c774b;
+  flex-grow: 1;
+  padding: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 모든 아이템을 가운데 정렬 */
 }
 .app-container {
   display: flex;
@@ -100,10 +92,11 @@ html, body {
 .app-content {
   background-color: #1c774b;
   flex-grow: 1;
-  margin-left: 160px; /* 사이드바의 너비와 맞춤 */
   padding: 10px;
   overflow-y: auto;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
 
 /* Section style */
@@ -281,10 +274,31 @@ footer {
   padding:5px;
 }
 
+
+
+/*Contact*/
 .contact-info{
   padding: 20px;
   display: flex;
   flex-direction: column;
   color:#000;
   font-weight: 300;
+}
+
+.contact-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #343a40;
+  color: white;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
 }
